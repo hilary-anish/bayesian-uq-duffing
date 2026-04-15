@@ -1,0 +1,25 @@
+services:
+  bayesian-uq:
+    build: .
+    container_name: bayesian-uq-duffing
+    volumes:
+      - ./figures:/app/figures
+    mem_limit: 6g
+    # Default: full pipeline. Uncomment the line below for quick mode:
+    # command: ["--quick"]
+
+# ─────────────────────────────────────────────────────────
+# USAGE:
+#
+#   Full pipeline (~15-20 min):
+#     docker compose up --build
+#
+#   Quick mode (~2 min):
+#     docker compose run --rm bayesian-uq --quick
+#
+#   Interactive shell:
+#     docker compose run --rm --entrypoint bash bayesian-uq
+#
+#   Clean up:
+#     docker compose down --rmi local
+# ─────────────────────────────────────────────────────────

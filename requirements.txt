@@ -1,0 +1,11 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+torch>=2.0
+gpytorch>=1.11
+chaospy>=4.3
+openturns>=1.21
+SALib>=1.4
+scikit-learn>=1.3
+pyDOE3>=1.0
+tqdm>=4.65
