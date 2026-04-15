@@ -61,7 +61,7 @@ Module 2: GP / Kriging Surrogate (Matérn-5/2 ARD, GPyTorch)
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/bayesian-uq-duffing.git
+git clone https://github.com/hilary-anish/bayesian-uq-duffing.git
 cd bayesian-uq-duffing
 pip install -r requirements.txt
 ```
